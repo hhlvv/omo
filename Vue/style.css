@@ -17,5 +17,9 @@ button {
     background-color: #1E95EA;
     color : white;
     height: 40px;
-    widows: 100px;
+    width: 100px;
+}
+
+.disabledButton {
+    background-color: #d8d8d8;
 }
