@@ -90,14 +90,15 @@ Vue.component('product',{
                     return 2.99
                 }
             }
+            
         }
 })
 
 
 var app = new Vue({
-    el : "#app",
-    data : { 
-        premium : false
+    el: "#app",
+    data: { 
+        premium : true
     }
     
 });
