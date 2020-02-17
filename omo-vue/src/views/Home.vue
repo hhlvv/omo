@@ -3,6 +3,7 @@
     <router-link to="/main">
       <img class="home_click_img" alt="Home img" src="../assets/home.jpg">
     </router-link>
+    <p>환영합니다 이미지를 클릭해주세요</p>
   </div>
 </template>
 
@@ -12,7 +13,7 @@
 
 <style scoped>
   .home_click_img{
-    width: 30%;
+    width: 50%;
     cursor: pointer;
   }
 </style>
