@@ -1,19 +1,18 @@
 <template>
   <div class="home">
-    <router-link to="/main">
-      <img class="home_click_img" alt="Home img" src="../assets/home.jpg">
-    </router-link>
-    <p>환영합니다 이미지를 클릭해주세요</p>
+    <img alt="Vue logo" src="../assets/logo.png" />
+    <HelloWorld msg="Welcome to Your Vue.js App" />
   </div>
 </template>
 
 <script>
+// @ is an alias to /src
+import HelloWorld from "@/components/HelloWorld.vue";
 
-</script>
-
-<style scoped>
-  .home_click_img{
-    width: 50%;
-    cursor: pointer;
+export default {
+  name: "Home",
+  components: {
+    HelloWorld
   }
-</style>
+};
+</script>
