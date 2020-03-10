@@ -36,19 +36,40 @@
                     cols="12"
                     md="6"
                   >
-                    <span>Scheme</span>
+                    <span>no.1</span>
+                  </v-col>
+                </v-row>
+              </v-card-text>
+            </v-card>
+          </v-col>
+          <v-col cols="10">
+            <v-card>
+              <v-card-text>
+                <v-row>
+                  <v-col
+                    cols="12"
+                    md="6"
+                  >
+                    <span>no.2</span>
                   </v-col>
                   <v-col
                     cols="12"
                     md="6"
                   >
-                    <span>Drawer</span>
                   </v-col>
+                </v-row>
+              </v-card-text>
+            </v-card>
+          </v-col>
+          <v-col cols="10">
+            <v-card>
+              <v-card-text>
+                <v-row>
                   <v-col
                     cols="12"
                     md="6"
                   >
-                    <span>Footer</span>
+                    <span>no.3</span>
                   </v-col>
                 </v-row>
               </v-card-text>
