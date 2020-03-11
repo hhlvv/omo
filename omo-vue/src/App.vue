@@ -19,7 +19,7 @@
         v-if="primaryDrawer.type !== 'permanent'"
         @click.stop="primaryDrawer.model = !primaryDrawer.model"
       />
-      <v-toolbar-title><v-icon>{{ svgPath }}</v-icon>Welcome my project!</v-toolbar-title>
+      <v-toolbar-title><v-icon>{{ svgPath }}</v-icon> Welcome my project!</v-toolbar-title>
     </v-app-bar>
 
     <v-content>
@@ -31,49 +31,26 @@
           <v-col cols="10">
             <v-card>
               <v-card-text>
-                <v-row>
-                  <v-col
-                    cols="12"
-                    md="6"
-                  >
-                    <span>no.1</span>
-                  </v-col>
-                </v-row>
+                <span>사진 첫 메인</span>
               </v-card-text>
             </v-card>
           </v-col>
           <v-col cols="10">
             <v-card>
               <v-card-text>
-                <v-row>
-                  <v-col
-                    cols="12"
-                    md="6"
-                  >
-                    <span>no.2</span>
-                  </v-col>
-                  <v-col
-                    cols="12"
-                    md="6"
-                  >
-                  </v-col>
-                </v-row>
+                <span>위치</span>
               </v-card-text>
             </v-card>
           </v-col>
           <v-col cols="10">
             <v-card>
               <v-card-text>
-                <v-row>
-                  <v-col
-                    cols="12"
-                    md="6"
-                  >
-                    <span>no.3</span>
-                  </v-col>
-                </v-row>
+                <span>앨범</span>
               </v-card-text>
             </v-card>
+          </v-col>
+          <v-col cols="10">
+            <span>문자보내기_컴포넌트 사용</span>
           </v-col>
         </v-row>
       </v-container>
@@ -81,7 +58,7 @@
 
     <v-footer :inset="footer.inset"
       app>
-      <span class="px-4">@made H</span>
+      <span class="px-4">@made Hyelim💕</span>
     </v-footer>
   </v-app>
 </template>
