@@ -47,6 +47,12 @@
             </v-card>
           </v-col>
 
+          <v-col cols="10">
+            <v-card>
+              <show-component></show-component>
+            </v-card>
+          </v-col>
+
 
           <v-col cols="10">
             <v-card>
