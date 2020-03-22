@@ -3,16 +3,15 @@ import App from "./App.vue";
 import router from "./router";
 import store from "./store";
 import vuetify from "./plugins/vuetify";
-import gallery from "./components/Gallery";
-import slider from "./components/Slider";
-import Carousel3d from "vue-carousel-3d";
-
-Vue.use(Carousel3d);
+import gallery from "./components/Gallery"
+import slider from "./components/Slider"
+import show from "./components/Show"
 
 Vue.config.productionTip = false;
 
 Vue.component(gallery.name, gallery);
 Vue.component(slider.name, slider);
+Vue.component(show.name, show);
 
 new Vue({
   router,
