@@ -31,26 +31,10 @@
 
           <v-col cols="10">
             <v-card>
-              <show-component></show-component>
-            </v-card>
-          </v-col>
-
-
-          <v-col cols="10">
-            <v-card>
               <gallery-component></gallery-component>
             </v-card>
           </v-col>
           
-          <v-col cols="10">
-            <v-card>
-              <v-card-text>
-                <span>앨범</span>
-              </v-card-text>
-            </v-card>
-          </v-col>
-
-
           <v-col cols="10">
             <v-card>
               <v-card-text>
