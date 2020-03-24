@@ -1,24 +1,6 @@
 <template>
   <v-app id="sandbox">
-    <v-navigation-drawer
-      v-model="primaryDrawer.model"
-      :clipped="primaryDrawer.clipped"
-      :floating="primaryDrawer.floating"
-      :mini-variant="primaryDrawer.mini"
-      :permanent="primaryDrawer.type === 'permanent'"
-      :temporary="primaryDrawer.type === 'temporary'"
-      app
-      overflow
-    />
-
-    <v-app-bar
-      :clipped-left="primaryDrawer.clipped"
-      app
-    >
-      <v-app-bar-nav-icon
-        v-if="primaryDrawer.type !== 'permanent'"
-        @click.stop="primaryDrawer.model = !primaryDrawer.model"
-      />
+    <v-app-bar>
       <v-toolbar-title>
         <v-btn icon color="pink">
           <v-icon>mdi-heart</v-icon>
