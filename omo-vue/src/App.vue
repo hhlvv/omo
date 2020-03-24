@@ -18,7 +18,7 @@
           <v-col cols="10">
             <v-card>
               <v-card-text>
-                <span>메인 이미지</span>
+                <img class="main_img" src="@/assets/img.jpg" >
               </v-card-text>
             </v-card>
           </v-col>
@@ -107,5 +107,10 @@ import {mdiAccount} from '@mdi/js'
 <style scoped>
   .v-application--wrap{
     min-height: 1px;
+  }
+
+  .main_img{
+    width : 100%;
+    text-align : center;
   }
 </style>
