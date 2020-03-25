@@ -34,7 +34,7 @@
               <gallery-component></gallery-component>
             </v-card>
           </v-col>
-          
+
           <v-col cols="10">
             <v-card>
               <v-card-text>
