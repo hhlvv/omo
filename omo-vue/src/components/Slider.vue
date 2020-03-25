@@ -91,16 +91,12 @@
 <script>
   import { Carousel3d, Slide } from 'vue-carousel-3d';
 
-  new Vue({
+  export default {
+    name: 'slider-component',
     el: '#slide_select',
-    vuetify: new Vuetify(),
     data: () => ({
       model: null,
     }),
-  });
-
-  export default {
-    name: 'slider-component',
     methods: {
       showTitle () {
         this.title = 'slider Component'
