@@ -1,8 +1,11 @@
 <template>
     <div id="slider">
-        <carousel-3d>
+        <carousel-3d :controls-visible="true" 
+                      :controls-prev-html="'&#10092;'" :controls-next-html="'&#10093;'"
+                      :controls-width="30" :contols-height="60" :clickable="false"
+        >
           <slide :index="0">
-            Slide 1 Content
+            slide 1
           </slide>
           <slide :index="1">
             Slide 2 Content
@@ -12,6 +15,9 @@
           </slide>
           <slide :index="3">
             Slide 4 Content
+          </slide>
+          <slide :index="4">
+            Slide 5 Content
           </slide>
         </carousel-3d>
     </div>
