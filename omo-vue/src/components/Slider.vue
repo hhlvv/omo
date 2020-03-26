@@ -1,32 +1,10 @@
 <template>
-    <div id="slider">
-        <carousel-3d :controls-visible="true" 
-                      :controls-prev-html="'&#10092;'" :controls-next-html="'&#10093;'"
-                      :controls-width="30" :contols-height="60" :clickable="false"
-        >
-          <slide :index="0">
-            slide 1
-          </slide>
-          <slide :index="1">
-            Slide 2 Content
-          </slide>
-          <slide :index="2">
-            Slide 3 Content
-          </slide>
-          <slide :index="3">
-            Slide 4 Content
-          </slide>
-          <slide :index="4">
-            Slide 5 Content
-          </slide>
-        </carousel-3d>
-
+    <div id="slider" height="100%">
       <div id ="slide_select">
         <v-app id="inspire">
           <v-sheet
             class="mx-auto"
-            elevation="8"
-            max-width="800"
+            max-width="100%"
           >
             <v-slide-group
               v-model="model"
@@ -34,15 +12,15 @@
               show-arrows
             >
               <v-slide-item
-                v-for="n in 15"
+                v-for="n in 10"
                 :key="n"
                 v-slot:default="{ active, toggle }"
               >
                 <v-card
-                  :color="active ? 'primary' : 'grey lighten-1'"
+                  :color="active ? '#FFCDD2' : 'white lighten-1'"
                   class="ma-4"
-                  height="200"
-                  width="100"
+                  height="150"
+                  width="150"
                   @click="toggle"
                 >
                   <v-row
@@ -55,7 +33,7 @@
                         v-if="active"
                         color="white"
                         size="48"
-                        v-text="'mdi-close-circle-outline'"
+                        v-text="'mdi-emoticon-happy'"
                       ></v-icon>
                     </v-scale-transition>
                   </v-row>
@@ -66,8 +44,8 @@
             <v-expand-transition>
               <v-sheet
                 v-if="model != null"
-                color="grey lighten-4"
-                height="200"
+                color="red lighten-3"
+                height="250"
                 tile
               >
                 <v-row
@@ -79,7 +57,7 @@
                 </v-row>
               </v-sheet>
             </v-expand-transition>
-          </v-sheet>
+          </v-sheet> 
         </v-app>
       </div>
 

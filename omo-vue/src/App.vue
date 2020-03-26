@@ -1,5 +1,5 @@
-<template>
-  <v-app id="sandbox">
+<template >
+  <v-app id="sandbox"> 
     <v-app-bar>
       <v-toolbar-title>
         <v-btn icon color="pink">
@@ -10,7 +10,7 @@
     </v-app-bar>
 
     <v-content>
-      <v-container fluid>
+      <v-container>
         <v-row
           align="center"
           justify="center"
@@ -26,12 +26,6 @@
           <v-col cols="10">
             <v-card>
               <slider-component></slider-component>
-            </v-card>
-          </v-col>
-
-          <v-col cols="10">
-            <v-card>
-              <gallery-component></gallery-component>
             </v-card>
           </v-col>
 
@@ -88,13 +82,14 @@ import {mdiAccount} from '@mdi/js'
   }
 </script>
 
-<style scoped>
-  .v-application--wrap{
-    min-height: 1px;
+<style>
+  .v-application--wrap {
+    min-height: 0vh !important;
   }
 
   .main_img{
     width : 100%;
     text-align : center;
   }
+  
 </style>
