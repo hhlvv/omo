@@ -10,43 +10,54 @@
     </v-app-bar>
 
     <v-content>
-      <v-container>
-        <v-row
-          align="center"
-          justify="center"
-        >
-          <v-col cols="10">
-            <v-card>
-              <v-card-text>
-                <img class="main_img" src="@/assets/img.jpg" >
-              </v-card-text>
-            </v-card>
-          </v-col>
+      <v-flex xs12 md10>
+        <v-container>
+          <v-row
+            align="center"
+            justify="center"
+          >
+            <v-col cols="10">
+              
+                <v-card>
+                  <v-card-text>
+                    <img class="main_img" src="@/assets/img.jpg" >
+                  </v-card-text>
+                </v-card>
+            </v-col>
 
-          <v-col cols="10">
-            <v-card>
-              <slider-component></slider-component>
-            </v-card>
-          </v-col>
+            <v-col cols="10">
+                <v-card>
+                  <slider-component></slider-component>
+                </v-card>
+            </v-col>
 
-          <v-col cols="10">
-            <v-card>
-              <v-card-text>
-                <span>위치</span>
-              </v-card-text>
-            </v-card>
-          </v-col>
-          <v-col cols="10">
-            <div class="my-2">
-              <v-btn text x-large>URL 공유하기 🤗</v-btn>
-              <v-btn color="success" fab medium dark>
-                <i class="material-icons" style="font-size:30px;">share</i>
-              </v-btn>
-            </div>
-          </v-col>
+            <v-col cols="10">
+              <v-card>
+                <v-card-text>
+                  
+                </v-card-text>
+              </v-card>
+            </v-col>
 
-        </v-row>
-      </v-container>
+            <v-col cols="10">
+              <v-card>
+                <v-card-text>
+                  <span>위치</span>
+                </v-card-text>
+              </v-card>
+            </v-col>
+            <v-col cols="10">
+              <div class="my-2">
+                <v-btn text x-large>URL 공유하기 🤗</v-btn>
+                <v-btn color="success" fab medium dark>
+                  <i class="material-icons" style="font-size:30px;">share</i>
+                </v-btn>
+              </div>
+            </v-col>
+
+          </v-row>
+        </v-container>
+      </v-flex>
     </v-content>
 
     <v-footer :inset="footer.inset"
