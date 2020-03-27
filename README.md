@@ -7,6 +7,8 @@ Node.js 서버 사용
 
 AWS 사용하여 구축 예정
 
+Vuetify - vue add vuetify
 
 build - npm run build
+
 server start - npm run serve
