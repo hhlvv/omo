@@ -1,6 +1,6 @@
 <template>
     <div id="slider" height="100%">
-      <div id ="slide_select">
+      <div>
         <v-app id="inspire">
           <v-sheet
             class="mx-auto"
@@ -71,10 +71,12 @@
 
   export default {
     name: 'slider-component',
-    el: '#slide_select',
     data: () => ({
       model: null,
     }),
+    return :{
+      
+    },
     methods: {
       showTitle () {
         this.title = 'slider Component'
